@@ -1,0 +1,23 @@
+# المجلدات البرمجية والاعتماديات
+node_modules/
+
+# ملفات الإعدادات والبيئة (مهم جداً للأمان)
+.env
+.env.development
+.env.test
+.env.production
+vercel.json
+
+# ملفات Docker نفسها
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# ملفات Git و metadata
+.git
+.gitignore
+README.md
+
+# سجلات الأخطاء
+npm-debug.log
+yarn-error.log
